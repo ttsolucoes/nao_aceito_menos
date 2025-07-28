@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Início{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/public/home.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="home-hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Não aceito menos!</h1>
+        <p class="hero-subtitle">Você é uma alma peregrina e sua jornada começa agora.</p>
+        <a href="/jogo" class="start-button">Iniciar jornada</a>
+    </div>
+</div>
+{% endblock %}

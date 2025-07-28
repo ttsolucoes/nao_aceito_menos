@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Não Aceito Menos</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pages/public/jogo.css') }}">
+</head>
+<body>
+
+<div class="tela" id="jogo-container">
+
+</div>
+
+<audio id="audio-fundo" loop autoplay>
+    <source src="{{ url_for('static', filename='midias/' + capitulo + '/' + audio_fundo + '.mp3') }}" type="audio/mp3">
+</audio>
+
+<script>
+    let cenas = {{ cenas | tojson }};
+    let pasta = "{{ capitulo }}";
+</script>
+<script src="{{ url_for('static', filename='js/modules/public/jogos.js') }}"></script>
+
+</body>
+</html>
