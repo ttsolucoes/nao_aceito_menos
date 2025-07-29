@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("jogo-container");
     const audioFundo = document.getElementById("audio-fundo");
     let historicoEscolhas = [];
+    let faixaVisivel = true;
 
     function tocarNarracao(cena) {
         const existente = document.getElementById("audio-narracao");
@@ -69,7 +70,12 @@ document.addEventListener("DOMContentLoaded", function () {
         container.innerHTML = html;
         tocarNarracao(cena);
 
-        // Eventos para opções de escolha
+        // Aplicar visibilidade da faixa de diálogo (manter o estado)
+        const faixa = document.querySelector(".faixa-dialogo");
+        if (faixa) {
+            faixa.style.display = faixaVisivel ? "block" : "none";
+        }
+
         if (cena.opcoes) {
             document.querySelectorAll(".botao-opcao").forEach(botao => {
                 botao.addEventListener("click", () => {
@@ -101,8 +107,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const botaoProximo = document.getElementById("botao-proximo");
             if (botaoProximo) {
                 botaoProximo.classList.remove("pulsando");
-                botaoProximo.addEventListener("click", () => {
-                    botaoProximo.classList.remove("pulsando");
+                botaoProximo.addEventListener("click", (e) => {
+                    e.stopPropagation(); // impede conflito com clique fora da faixa
                     indiceAtual++;
                     mostrarCena(indiceAtual);
                 });
@@ -128,4 +134,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     mostrarCena(indiceAtual);
+
+    // Clique fora da faixa para alternar visibilidade
+    document.addEventListener("click", function toggleFaixa(e) {
+        const faixa = document.querySelector(".faixa-dialogo");
+        const opcoes = document.querySelector(".bloco-opcoes");
+        const botao = document.getElementById("botao-proximo");
+
+        if (!faixa || faixa.contains(e.target) || (opcoes && opcoes.contains(e.target)) || (botao && botao.contains(e.target))) return;
+
+        faixaVisivel = faixa.style.display === "none";
+        faixa.style.display = faixaVisivel ? "block" : "none";
+    });
+
+    // Avançar com tecla espaço
+    document.addEventListener("keydown", function (e) {
+        const cena = cenas[indiceAtual];
+        if (e.code === "Space" && cena.template === "dialogo") {
+            e.preventDefault();
+            indiceAtual++;
+            mostrarCena(indiceAtual);
+        }
+    });
 });
