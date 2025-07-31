@@ -318,22 +318,141 @@ jogo_jornada = {
                 'template': 'dialogo',
                 'personagem': 'Deus',
                 'texto': 'Alma enviada com amor, sua jornada se inicia. Neste país de invernos longos e palavras contidas, você nasceu. Linnea Karlsson, filha de mentes brilhantes, mas de corações que Me desconhecem. Aqueles que agora te seguram foram formados pela razão, pela lógica, pela ciência que Eu mesmo criei, mas que agora tentam usar para Me negar. Eles te amarão como puderem, mas não saberão te ensinar sobre Mim. Não por maldade, mas por ignorância. Aqui, o amor é medido, e a fé, uma superstição esquecida.',
-                'imagem_principal': 'alma_peregrina',
+                'imagem_principal': 'parte1',
                 'audio': 'narracao1_cap3e'
             },
             {
                 'template': 'dialogo',
                 'personagem': 'Deus',
                 'texto': 'Mesmo entre livros e teorias, seu coração sente que algo falta. Você ouve sobre o Big Bang, mas pergunta quem acendeu o fósforo. Você aprende sobre evolução, mas sente que há mais beleza no mundo do que o acaso pode criar. É o Meu sopro, Linnea. Ele já ressoa em você.',
-                'imagem_principal': 'alma_peregrina',
+                'imagem_principal': 'parte2',
                 'audio': 'narracao2_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'O que é isso?',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao3_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Senhora idosa',
+                'texto': 'É um terço... uma oração.',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao4_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Oração?',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao5_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Senhora idosa',
+                'texto': 'É quando falamos com Deus. Você nunca falou com Ele?',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao6_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': '...',
+                'imagem_principal': 'parte3',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Não. Não sei se Ele existe.',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao7_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Senhora idosa',
+                'texto': 'Talvez você não saiba ainda. Mas Ele já está te ouvindo.',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao8_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Deus... você está me ouvindo?',
+                'imagem_principal': 'parte4',
+                'audio': 'narracao9_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Deus',
+                'texto': '...',
+                'imagem_principal': 'parte4',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Deus... você está me ouvindo?',
+                'imagem_principal': 'parte4',
+                'audio': 'narracao9_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Deus',
+                'texto': '...',
+                'imagem_principal': 'parte4',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Deus... você está me ouvindo?',
+                'imagem_principal': 'parte4',
+                'audio': 'narracao9_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Deus',
+                'texto': '...',
+                'imagem_principal': 'parte4',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Mãe, existe Deus?',
+                'imagem_principal': 'parte5',
+                'audio': 'narracao10_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Joana - mãe de Linnea',
+                'texto': 'Ah, meu amor... algumas pessoas acreditam nisso. Mas nós acreditamos na razão. A vida é maravilhosa por si só. E é só isso que temos.',
+                'imagem_principal': 'parte5',
+                'audio': 'narracao11_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Mas... e se for mais?',
+                'imagem_principal': 'parte5',
+                'audio': 'narracao12_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'João - pai de Linnea',
+                'texto': 'Linnea, isso é papo de igreja. Não precisamos disso para sermos boas pessoas. Está bem?',
+                'imagem_principal': 'parte5',
+                'audio': 'narracao13_cap3e'
             },
             {
                 'template': 'opcao',
                 'personagem': 'Bibliotecária',
                 'texto': 'Quer levar esse livro, querida?',
-                'imagem_principal': 'alma_peregrina',
-                'audio': 'fundo_global',
+                'imagem_principal': 'parte6',
+                'audio': 'narracao14_cap3e',
                 'opcoes': ['Sim... posso levar?', 'Não... meus pais não gostam dessas coisas.', 'Não sei... talvez seja melhor não levar agora. Eu não sei se posso ler isso.'],
             },
         ],
