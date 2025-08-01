@@ -451,21 +451,21 @@ jogo_jornada = {
                 'template': 'dialogo',
                 'personagem': 'Linnea',
                 'texto': '...',
-                'imagem_principal': 'parte5',
+                'imagem_principal': 'parte6',
                 'audio': 'fundo_global'
             },
             {
                 'template': 'dialogo',
                 'personagem': 'Linnea',
                 'texto': 'Que biblioteca rica! Olha esses livros antigos! E esse aqui... Parece interessante. Eu nunca ouvi falar disso na escola.',
-                'imagem_principal': 'parte5',
+                'imagem_principal': 'parte6',
                 'audio': 'narracao14_cap3e'
             },
             {
                 'template': 'dialogo',
                 'personagem': 'Linnea',
                 'texto': '...',
-                'imagem_principal': 'parte5',
+                'imagem_principal': 'parte6',
                 'audio': 'fundo_global'
             },
             {
