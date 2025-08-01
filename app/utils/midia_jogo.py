@@ -448,11 +448,32 @@ jogo_jornada = {
                 'audio': 'narracao13_cap3e'
             },
             {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': '...',
+                'imagem_principal': 'parte5',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': 'Que biblioteca rica! Olha esses livros antigos! E esse aqui... Parece interessante. Eu nunca ouvi falar disso na escola.',
+                'imagem_principal': 'parte5',
+                'audio': 'narracao14_cap3e'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Linnea',
+                'texto': '...',
+                'imagem_principal': 'parte5',
+                'audio': 'fundo_global'
+            },
+            {
                 'template': 'opcao',
                 'personagem': 'Bibliotecária',
                 'texto': 'Quer levar esse livro, querida?',
                 'imagem_principal': 'parte6',
-                'audio': 'narracao14_cap3e',
+                'audio': 'narracao15_cap3e',
                 'opcoes': ['Sim... posso levar?', 'Não... meus pais não gostam dessas coisas.', 'Não sei... talvez seja melhor não levar agora. Eu não sei se posso ler isso.'],
             },
         ],
