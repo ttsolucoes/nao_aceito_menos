@@ -469,29 +469,64 @@ jogo_jornada = {
                 'template': 'dialogo',
                 'personagem': 'Deus',
                 'texto': 'Em Sevilha, a cidade da luz e da devoção, sua jornada se inicia, alma. O portal se fechou, e você, Isabella, nasce. O sol da Andaluzia banha as ruas históricas, e o ar é perfumado com incenso e flores. Você nasceu em uma das mais tradicionais e abastadas famílias, onde a fé católica é um legado, e a riqueza, uma herança. Seu choro é acolhido por braços que Me invocam com fervor e que Me enxergam em Minha totalidade. O amor que você trouxe consigo, agora encontra seu primeiro lar na tradição e na prosperidade.',
-                'imagem_principal': 'alma_peregrina',
+                'imagem_principal': 'parte1',
                 'audio': 'narracao1_cap3s'
             },
             {
                 'template': 'dialogo',
-                'personagem': 'Deus',
-                'texto': 'Desde o berço, o Nome de Deus será familiar aos seus ouvidos. O Meu Corpo, a Cruz, o Sacramento, tudo será parte de sua vida. A fé será viva, mas a tentação da complacência e do orgulho espiritual espreitará. Você crescerá sendo amada e instruída na retidão, mas também na expectativa de manter as aparências e o status. E Eu estarei lá. Sempre.',
-                'imagem_principal': 'alma_peregrina',
+                'personagem': 'Francisco - pai da Isabella',
+                'texto': 'Senhor, consagramos esta filha a Ti! Que ela seja digna de nossa fé e de nosso nome. Que ela cresça na retidão e na caridade, e que sua vida seja um testemunho de nossa devoção e de nossa posição na sociedade!',
+                'imagem_principal': 'parte1',
                 'audio': 'narracao2_cap3s'
             },
             {
                 'template': 'dialogo',
                 'personagem': 'Deus',
-                'texto': 'Isabella, desde cedo você demonstrará uma sensibilidade incomum. Em meio ao luxo e às formalidades, seu coração sentirá que há algo mais profundo. Você observará a caridade de sua família, mas perguntará se ela é feita por amor verdadeiro ou por reconhecimento. Você aprenderá sobre os santos, mas sentirá que a santidade é mais do que títulos e aparências. É o Meu sopro, Isabella. Ele já ressoa em você, uma sede inata pela autenticidade e pela verdade que transcende as convenções sociais.',
-                'imagem_principal': 'alma_peregrina',
+                'texto': 'Desde o berço, o Nome de Deus será familiar aos seus ouvidos. O Meu Corpo, a Cruz, o Sacramento, tudo será parte de sua vida. A fé será viva, mas a tentação da complacência e do orgulho espiritual espreitará. Você crescerá sendo amada e instruída na retidão, mas também na expectativa de manter as aparências e o status. E Eu estarei lá. Sempre.',
+                'imagem_principal': 'parte1',
                 'audio': 'narracao3_cap3s'
             },
             {
-                'template': 'opcao',
+                'template': 'dialogo',
                 'personagem': 'Deus',
+                'texto': 'Isabella, desde cedo você demonstrará uma sensibilidade incomum. Em meio ao luxo e às formalidades, seu coração sentirá que há algo mais profundo. Você observará a caridade de sua família, mas perguntará se ela é feita por amor verdadeiro ou por reconhecimento. Você aprenderá sobre os santos, mas sentirá que a santidade é mais do que títulos e aparências. É o Meu sopro, Isabella. Ele já ressoa em você, uma sede inata pela autenticidade e pela verdade que transcende as convenções sociais.',
+                'imagem_principal': 'parte1',
+                'audio': 'narracao4_cap3s'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Isabella',
+                'texto': 'Mãe... por que eles não têm brinquedos bonitos como os meus? E por que eles parecem... tão diferentes?',
+                'imagem_principal': 'parte2',
+                'audio': 'narracao5_cap3s'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Maria - mãe da Isabella',
+                'texto': 'Ah, meu amor... são crianças menos afortunadas. Nós as ajudamos com a caridade da família. É importante que saibam que somos generosos e que Deus nos abençoou para isso.',
+                'imagem_principal': 'parte2',
+                'audio': 'narracao6_cap3s'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Criança no evento',
+                'texto': '...',
+                'imagem_principal': 'parte3',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'dialogo',
+                'personagem': 'Isabella',
+                'texto': '...',
+                'imagem_principal': 'parte3',
+                'audio': 'fundo_global'
+            },
+            {
+                'template': 'opcao',
+                'personagem': 'Criança no evento',
                 'texto': 'Que boneca linda, eu posso brincar?',
-                'imagem_principal': 'alma_peregrina',
-                'audio': 'fundo_global',
+                'imagem_principal': 'parte3',
+                'audio': 'narracao7_cap3s',
                 'opcoes': ['Quer brincar com ela? Pode ficar com ela.', 'Sim, mas só se você prometer que vai cuidar muito bem dela e me devolver depois.', 'Podemos brincar juntas. o que acha?'],
             },
         ],
